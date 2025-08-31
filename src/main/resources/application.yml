@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: api-create-user
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.template.springproject.controllers: DEBUG
+
+app:
+  jwt:
+    secret: secret_key
+    expiration: 60 # minutes
+  regex:
+    email: '^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$'
+    password: '[\w\W]+'
+
+server.port: 8080
