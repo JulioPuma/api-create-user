@@ -1,13 +1,13 @@
-package com.evaluation.project.api_create_user;
+package com.evaluation.project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrearUsuarioApplication {
+public class CreateUserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrearUsuarioApplication.class, args);
+		SpringApplication.run(CreateUserApplication.class, args);
 	}
 
 }
